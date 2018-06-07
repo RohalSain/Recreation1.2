@@ -1,0 +1,170 @@
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:focusableInTouchMode="true"
+android:background="@color/colorAccent"
+tools:context="com.developer.rohal.recreationcenteer.fragment.FragmentLogin">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/RecreationLogo"
+                android:layout_marginTop="30dp">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="150dp"
+                    android:layout_height="190dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="18dp"
+                    android:background="@drawable/ic_logo" />
+
+                <TextView
+                    android:id="@+id/logoText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/logo"
+                    android:layout_alignTop="@+id/logo"
+                    android:layout_marginStart="44dp"
+                    android:layout_marginTop="160dp"
+                    android:text="@string/logoFont"
+                    android:textAlignment="center"
+                    android:textColor="@color/logoColor"
+                    android:textSize="30dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/RecreationLogo"
+                android:id="@+id/EmailPassword">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:paddingHorizontal="30dp"
+                    android:orientation="vertical"
+                    android:id="@+id/linearLayout">
+                    <EditText
+                        android:id="@+id/UserName_Text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@android:color/transparent"
+                        android:backgroundTint="@android:color/white"
+                        android:drawableLeft="@drawable/ic_email_white"
+                        android:drawablePadding="10dp"
+                        android:ems="12"
+                        android:hint="E-mail"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/logoColor"
+                        android:textColorHint="@color/logoColor"
+                        android:textColorLink="@color/logoColor"
+                        android:textSize="16dp" />
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/logoColor"  />
+                    <EditText
+                        android:id="@+id/Password_Text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/UserName_Text"
+                        android:layout_alignStart="@+id/UserName_Text"
+                        android:layout_marginTop="30dp"
+                        android:background="@android:color/transparent"
+                        android:backgroundTint="@android:color/white"
+                        android:drawableLeft="@drawable/ic_password_white"
+                        android:drawablePadding="10dp"
+                        android:ems="12"
+                        android:hint="Password"
+                        android:inputType="textPassword"
+                        android:textColor="@color/logoColor"
+                        android:textColorHint="@color/logoColor"
+                        android:textSize="16dp" />
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/logoColor" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/forgot"
+                android:layout_below="@+id/EmailPassword">
+                <Button
+                    android:id="@+id/forgotPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="42dp"
+                    android:background="@android:color/transparent"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="150sp"
+                    android:text="Forgot Password?"
+                    android:textAllCaps="false"
+                    android:textColor="@color/logoColor"
+                    android:textSize="14dp"
+                    android:textStyle="italic" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/forgot"
+                android:id="@+id/LoginsignUp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="70dp"
+                android:paddingHorizontal="30dp">
+                <Button
+                    android:id="@+id/Login_Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/my_button_bg"
+                    android:forceHasOverlappingRendering="false"
+                    android:text="LOGIN"
+                    android:textAllCaps="false"
+                    android:textColor="@color/logoColor"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/SignUp_Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/Login_Button"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/my_button_bg"
+                    android:drawablePadding="10dp"
+                    android:text="SIGN UP"
+                    android:textAllCaps="false"
+                    android:textColor="@color/logoColor"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    tools:fontFamily="@font/" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
+    <include android:id="@+id/loadingLogin"
+    layout="@layout/fragment_loader"/>
+</FrameLayout>
+</ScrollView>

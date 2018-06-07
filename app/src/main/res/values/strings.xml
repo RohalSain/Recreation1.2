@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Recreation Centre</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logoFont">RECREATION  \n CENTRE </string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps__home">Map</string>
+    <string name="terms">
+        Terms &amp; Conditions
+    </string>
+    <string name="requested">
+       <i>Request Send</i>
+    </string>
+    <string name="SelectGynasium">Select Gymnasium</string>
+    <string name="location">Enter Location(Fairox,Delhi)</string>
+    <string name="SelectedGym">Selected Gym</string>
+
+</resources>

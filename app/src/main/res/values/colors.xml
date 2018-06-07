@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff7f34</color>
+    <color name="bgColor">#ff7f34</color>
+    <color name="viewColor">#d9cdc7</color>
+    <color name="logoColor">#f2edeb</color>
+    <color name="sideColor">#b61a1917</color>
+    <color name="JoinBlue">#1da1e9</color>
+    <color name="dialogBackgroun">#00f7f6f5</color>
+    <color name="createTextColor">#e42d2b29</color>
+    <color name="BlurColor">#16bcb8b6</color>
+    <color name="viewColor2">#49978d88</color>
+    <color name="viewColor3">#efe8e5</color>
+    <color name="GreenText">#f82fc127</color>
+    <color name="addbg">#00efe8e5</color>
+    <color name="setbgColor">#ff7f34</color>
+</resources>
